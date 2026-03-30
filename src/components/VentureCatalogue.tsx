@@ -164,6 +164,7 @@ function ProductCard({ product, onLaunch }: { product: Product; onLaunch?: (id: 
         display: 'flex',
         flexDirection: 'column',
         gap: 16,
+        width: '100%',
       }}
     >
       {/* Radial gradient overlay */}
@@ -329,6 +330,7 @@ export default function VentureCatalogue({ onLaunch }: VentureCatalogueProps) {
               style={{
                 opacity: mounted ? 1 : 0,
                 animation: mounted ? `fade-up 0.5s ease ${0.4 + i * 0.1}s both` : 'none',
+                display: 'flex',
               }}
             >
               <ProductCard product={product} onLaunch={onLaunch} />
