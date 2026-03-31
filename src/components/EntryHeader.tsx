@@ -20,7 +20,7 @@ export default function EntryHeader() {
         <span className="badge-pill badge-pill-watson">
           <span className="badge-initial badge-initial-watson">W</span>
           <span className="badge-name badge-name-watson">Watson</span>
-          <span className="badge-role">CMO</span>
+          <span className="badge-role">Head of Growth</span>
         </span>
         <span> — with specialists including</span>
         {TEAM_MEMBERS.map((member, i, arr) => (

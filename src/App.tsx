@@ -7,7 +7,7 @@ import EntryHeader from './components/EntryHeader'
 
 const INTRO_MESSAGES = [
   { body: 'Hey 👋 how are you?', delay: 1000 },
-  { body: "I'm Watson - Chief Marketing Officer of GrowthOS - an AI-powered plug & play marketing department built by Venture Labs.", delay: 1800 },
+  { body: "I'm Watson - Head of Growth at GrowthOS - an AI-powered plug & play growth department built by Venture Labs.", delay: 1800 },
   { body: 'At my disposal I have a team of 5 AI employees with over 30 skills between them, ready to fuel growth at your organisation.', delay: 1800 },
   { body: 'PS: For lots of companies, GrowthOS already *is* the marketing department - but of course the team are also happy to work alongside your existing marketing department to do your time-consuming administrative tasks and fill any skill gaps that you might have.', delay: 2800 },
   { body: 'Want to get started or hear more?', delay: 1000, options: ["Let's get started", "I want to hear more"] },
